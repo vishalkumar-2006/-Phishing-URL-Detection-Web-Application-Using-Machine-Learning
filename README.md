@@ -71,10 +71,8 @@ Libraries
 
 ## Project Structure
 
-## Project Structure
-
+```
 phishing-url-detection/
-
 │
 ├── app.py
 │   Streamlit web application for phishing URL prediction
@@ -93,7 +91,8 @@ phishing-url-detection/
 │
 └── README.md
     Project documentation
----
+```
+
 
 ## How the System Works
 
@@ -147,4 +146,5 @@ The application can be deployed to cloud platforms in the future for public acce
 ## Educational Purpose
 
 This project was developed to explore **machine learning applications in cybersecurity**, specifically focusing on phishing website detection using URL-based analysis.
+
 
