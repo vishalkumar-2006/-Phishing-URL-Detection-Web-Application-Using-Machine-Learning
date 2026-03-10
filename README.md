@@ -71,16 +71,28 @@ Libraries
 
 ## Project Structure
 
+## Project Structure
+
 phishing-url-detection/
 
-app.py                → Streamlit web application
-phishing_model.pkl    → Trained machine learning model
-Notebook/
-    model_training.ipynb  → Model training and evaluation notebook
-Dataset/
-    dataset.csv           → Dataset used for training
-README.md             → Project documentation
-
+│
+├── app.py
+│   Streamlit web application for phishing URL prediction
+│
+├── phishing_model.pkl
+│   Saved trained machine learning model used by the app
+│
+├── Notebook/
+│   └── model_training.ipynb
+│       Jupyter notebook containing data preprocessing,
+│       model training, evaluation, and analysis
+│
+├── Dataset/
+│   └── dataset.csv
+│       Dataset used for training and testing the models
+│
+└── README.md
+    Project documentation
 ---
 
 ## How the System Works
@@ -135,3 +147,4 @@ The application can be deployed to cloud platforms in the future for public acce
 ## Educational Purpose
 
 This project was developed to explore **machine learning applications in cybersecurity**, specifically focusing on phishing website detection using URL-based analysis.
+
